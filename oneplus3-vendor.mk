@@ -6,17 +6,17 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/oneplus3
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/camera_config.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/csidtg_camera.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/csidtg_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/imx179_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx179_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx298_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/s5k3p8_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3p8_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3p8sp_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/imx179_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx179_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/s5k3p8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/oneplus/oneplus3/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/oneplus/oneplus3/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/oneplus/oneplus3/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mbn_ota.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mbn_ota.txt \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn \
@@ -58,22 +58,22 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/system_ext/framework/qcnvitems.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qcnvitems.jar \
     vendor/oneplus/oneplus3/proprietary/system_ext/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qcrilhook.jar \
     vendor/oneplus/oneplus3/proprietary/system_ext/framework/uimlpalibrary.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/uimlpalibrary.jar \
-    vendor/oneplus/oneplus3/proprietary/lib/TC_Bayer_Converter_v6_core_opt.bin:$(TARGET_COPY_OUT_SYSTEM)/lib/TC_Bayer_Converter_v6_core_opt.bin \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/TC_Bayer_Converter_v6_core_opt.bin:$(TARGET_COPY_OUT_VENDOR)/lib/TC_Bayer_Converter_v6_core_opt.bin \
     vendor/oneplus/oneplus3/proprietary/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparserextractor.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/fp_hal_extension.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8996.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFNVfbEngineHAL.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNVfbEngineHAL.so \
     vendor/oneplus/oneplus3/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/oneplus/oneplus3/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
-    vendor/oneplus/oneplus3/proprietary/lib/lib_oneplus_md.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_oneplus_md.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/lib_oneplus_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_oneplus_md.so \
     vendor/oneplus/oneplus3/proprietary/system_ext/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdiag_system.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmm-qcamera.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
     vendor/oneplus/oneplus3/proprietary/system_ext/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqmi_cci_system.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libqomx_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqomx_core.so \
-    vendor/oneplus/oneplus3/proprietary/lib/qpd_dspcl_v2.bin:$(TARGET_COPY_OUT_SYSTEM)/lib/qpd_dspcl_v2.bin \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/qpd_dspcl_v2.bin:$(TARGET_COPY_OUT_VENDOR)/lib/qpd_dspcl_v2.bin \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.fingerprint.extension@1.0.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
